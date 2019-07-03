@@ -1752,7 +1752,7 @@ var PDFViewerApplication = {
 exports.PDFViewerApplication = PDFViewerApplication;
 var validateFileURL;
 {
-  var HOSTED_VIEWER_ORIGINS = ['null', 'http://mozilla.github.io', 'https://mozilla.github.io',"http://169.254.236.155:8888"];
+  var HOSTED_VIEWER_ORIGINS = ['null', 'http://mozilla.github.io', 'https://mozilla.github.io',"http://health.arvate-top.com","http://192.168.2.106:44"];
 
   validateFileURL = function validateFileURL(file) {
     if (file === undefined) {
@@ -4372,7 +4372,7 @@ var defaultOptions = {
     kind: OptionKind.WORKER
   },
   workerSrc: {
-    value: '../build/pdf.worker.js',
+    value: 'build/pdf.worker.js',
     kind: OptionKind.WORKER
   }
 };
